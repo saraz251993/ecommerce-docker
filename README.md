@@ -19,3 +19,4 @@ sudo docker ps: You are able to check the running container.
 sudo docker stat: You are able to check the resources being used up by the running docker container.
 sudo docker stop _id: Once you are completed with the testing, you can stop the running container.
 
+The dataset file :kz.csv is too large so it can be downloaded at https://www.kaggle.com/mkechinov/ecommerce-purchase-history-from-electronics-store. Thanks
