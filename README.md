@@ -37,3 +37,5 @@ Create a new topics in kafka: /opt/kafka/bin/kafka-topics.sh --create --zookeepe
 List topics: /opt/kafka/bin/kafka-topics.sh --list --zookeeper zookeeper:2181
 Start a producer to publish data stream from input to kafka: /opt/kafka/bin/kafka-console-producer.sh --broker-list kafka:9092 --topic test-topic
 CONSUMER SIDE: /opt/kafka/bin/kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic test-topic
+
+The dataset file :kz.csv is too large so it can be downloaded at https://www.kaggle.com/mkechinov/ecommerce-purchase-history-from-electronics-store. Thanks
